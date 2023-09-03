@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 90px;
+   
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.cat_links {
+    
+    width: 63%;
+}
+
+
+.navbar .collapse {
+    
+   
+    height: 47px;
+    margin-right: 100px;
+}
+
+
+.navbar .collapse ul li {
+    margin-right: 45px;
+    font-size: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+.notification {
+    background-color: rgb(40, 145, 237);
+    color: #ffffff;
+    height: 45px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.notification p {
+    padding-top: 7.5px;
+    /* margin-left: 35%; */
+}
+
+#Header_Msg {
+    margin-top: 80px;
+}
+
+#Header_Msg h1 {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 60px;
+}
+
+#Header_Msg .col-8 h3 {
+   
+    text-align: left;
+   color: #999;
+} 
+
+#Header_Msg .col-8 .madeBy {
+    
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0.2, 0.2, 0.2, 0.2);
+
+}
+
+
+#Header_Msg .card {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+
+
+
+#Header_Msg .card h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#Header_Msg .card h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#Header_Msg .card i {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+#Header_Msg .card input[type="text"],
+input[type="number"] {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#Header_Msg .card input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #999;
+}
+
+#Header_Msg .card button {
+    margin-top: 10px;
+    width: 80%;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #8f89d8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#Header_Msg .card button:hover {
+    background-color: #635e9b;
+}
+
+#Header_Msg .card p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+#Header_Msg .container {
+    
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    border-radius: 7px;
+     height: 90px;
+    
+
+}
+
+#Header_Msg .container ul {
+    margin-top: 5px;;
+    display: flex;
+    
+}
+
+#Header_Msg .container ul li {
+    list-style-type: none;
+    margin-right: 55px; 
+}
+
+#Header_Msg .container ul li p {
+    margin-left: 10px;
+}
+
+#section_1 {
+    margin-top: 100px;
+    padding-top: 80px;
+    background-color: skyblue;
+    padding-bottom: 100px;
+}
+
+#section_1  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(48, 140, 216);
+}
+
+#section_1  h3 {
+    text-align: center;
+    color: rgb(15, 128, 221);
+}
+
+#section_1  .card {
+    border-radius: 15px;
+    padding-top: 50px;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+}
+
+#section_1  .card  h2 {
+    margin-bottom: 30px;
+}
+
+#section_1  .card .content div{
+    margin-left: 25px;
+    margin-top: 20px;
+    /* width: 50%; */
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_1  .card .content_2 {
+    display: flex;
+}
+
+#section_2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section_2 p,h1 {
+    
+    text-align: center;
+}
+
+#section_3 {
+    padding-bottom: 100px;
+}
+
+#section_3 .card {
+    margin-top: 30px;
+    align-items: center;
+
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#section_3 .card img {
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+#section_3 .card p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#section_4 {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: rgb(222, 213, 181);
+}
+
+
+
+#section_4 h3 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#section_4 p {
+    font-size: 20px;
+}
